@@ -33,6 +33,14 @@ h1,
   width: 700px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
 .button {
   display: inline-block;
   padding: 5px;
