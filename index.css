@@ -1,0 +1,59 @@
+body {
+  padding: 30px;
+}
+
+h1,
+h2,
+h3 {
+  color: rgb(37, 110, 117);
+}
+
+.contact-font {
+  color: rgb(37, 110, 117);
+  font-weight: bold;
+}
+
+h1,
+.team,
+.personal {
+  padding-bottom: 30px;
+}
+
+.aboutMe,
+.contact,
+.skills {
+  padding-bottom: 50px;
+}
+
+.skills-front,
+.skills-back,
+.skills-tools {
+  display: flex;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  width: 700px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgb(37, 110, 117);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  height: 30px;
+}
+
+.team-project {
+  line-height: 0.4em;
+}
+
+.team-project-day {
+  color: rgb(199, 201, 207);
+}
+
+.team-project-h1 {
+  font-weight: bold;
+}

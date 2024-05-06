@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>방동호의 포트폴리오</title>
-    <style></style>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
     <h1>방동호의 포트폴리오</h1>
     <div>
       <h2>ABOUT ME</h2>
-      <div>
+      <div class="aboutMe">
         안녕하세요, js 풀스택 개발자 방동호입니다. <br />
         뒤늦게 개발에 흥미를 느끼고 공부를 시작하게 되었습니다. <br />
         공부를 시작한지 반년도 되지 않았지만, 재미있게 공부하고 있습니다. <br />
@@ -18,13 +18,81 @@
     </div>
     <div>
       <h2>CONTACT</h2>
-      <div>
-        <p>Email</p>
-        bhang97@naver.com<br />
-        <p>Github</p>
-        https://github.com/ <br />
-        <p>tistory</p>
-        https://dongho-develop.tistory.com/<br />
+      <div class="contact">
+        <p class="contact-font">Email</p>
+        <a href="bhang97@naver.com">bhang97@naver.com</a>
+        <br />
+        <p class="contact-font">Github</p>
+        <a href="https://github.com/Bhangdongho"
+          >https://github.com/Bhangdongho</a
+        ><br />
+        <p class="contact-font">tistory</p>
+        <a href="https://dongho-develop.tistory.com/"
+          >https://dongho-develop.tistory.com/</a
+        ><br />
+      </div>
+    </div>
+    <div>
+      <h2>SKILLS</h2>
+      <div class="skills">
+        <div class="skills-front">
+          <div>
+            <p>Frontend</p>
+          </div>
+          <div>
+            <ul>
+              <li>HTML5, CSS3, Javascript (ES6+), Typescript</li>
+              <li>React</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skills-back">
+          <div>
+            <p>Backend</p>
+          </div>
+          <div>
+            <ul>
+              <li>Node.js (Express)</li>
+              <li>Javascript (ES6+)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="skills-tools">
+          <div>
+            <p>Tools</p>
+          </div>
+          <div>
+            <ul>
+              <li>Git, GitHub</li>
+              <li>Slack, Notion</li>
+              <li>Postman, VSCode</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>PROJECT</h2>
+      <div class="team">
+        <h3>팀 프로젝트</h3>
+        <div>
+          <div class="team-project">
+            <img class="yum.png" src="./asset/img/yum.png" />
+            <p class="team-project-day">2024.03</p>
+            <p class="team-project-h1">냠냠이(점메추)</p>
+            <br />
+            <input
+              class="button"
+              type="button"
+              value="바로가기"
+              onclick="window.location.href='https://github.com/YumYum-team/Yum-FE'"
+            />
+          </div>
+        </div>
+        <div>
+          <h3 clss="personal">개인 프로젝트</h3>
+          <div></div>
+        </div>
       </div>
     </div>
   </body>
